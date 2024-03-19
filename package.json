@@ -1,0 +1,14 @@
+{
+  "name": "snap-rca-camkit-workshop",
+  "version": "1.0.0",
+  "description": "<img src=\"img/snap-logo.jpg\" alt=\"snap\" width=\"75\" height=\"75\"/> <img src=\"img/rca-logo.png\" alt=\"rca\" width=\"75\" height=\"75\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal.js": "^5.0.5"
+  }
+}

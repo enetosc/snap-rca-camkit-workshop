@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/theme/black.css">
+        <link rel="stylesheet" href="../styles/custom_snap.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../node_modules/reveal.js/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown data-background-color="#fffc00">
+                    <textarea data-template>
+                        ## Camera Kit Workshop
+                        Snap x Royal College of Art
+                        ---
+                        ## Who am I?
+                        #### Edgar Neto
+                        - Partner Engineer (AR), Snap
+                        - Previously Meta, multiple gaming startups
+                        - MSc Computer Science 2011
+                        - MSc Psychology and Neuroscience (est. 2025)
+                        ---
+                        ## Agenda for today
+                        - Introduction to Lens Studio
+                        - Lab: Building your first Lens
+                        - Introduction to Camera Kit
+                        - Lab: Publishing a Lens to a Web Application
+                        - Optional: Publishing a Lens to a Mobile Application
+                        ---
+                        ## Step 1
+                        - Go on Github.com
+                        - Fork this repository to your account: 
+                        
+                        https://shorturl.at/ijGL0
+                        
+                        <img src="../img/fork.png" />
+                        ---
+                        ## Step 2
+                        - Once done, clone the newly forked repository to your computer, and run this on terminal:
+                        ```
+                        > cd path/to/local/folder
+                        > npm install
+                        > npm start
+                        ```
+                        
+
+
+
+
+                    </textarea>
+                </section>
+				<!-- <section>Slide 2</section> -->
+			</div>
+		</div>
+
+		<script src="../node_modules/reveal.js/dist/reveal.js"></script>
+		<script src="../node_modules/reveal.js/plugin/notes/notes.js"></script>
+		<script src="../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="../node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

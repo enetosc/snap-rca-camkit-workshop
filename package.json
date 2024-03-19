@@ -4,11 +4,13 @@
   "description": "<img src=\"img/snap-logo.jpg\" alt=\"snap\" width=\"75\" height=\"75\"/> <img src=\"img/rca-logo.png\" alt=\"rca\" width=\"75\" height=\"75\"/>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server -a localhost -p 8000 -o slides/guide.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^14.1.1",
     "reveal.js": "^5.0.5"
   }
 }

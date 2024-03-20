@@ -1,0 +1,79 @@
+{
+    "1710930922284680:1645": {
+        "IFileManager": {
+            "path": "Files/File_1710930922284680_1645.pvr"
+        }
+    },
+    "1710930922286466:1646": {
+        "IResourceController": {
+            "name": "Diff",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1710930922286762:1647",
+            "fileId": "1710930922284680:1645",
+            "originalId": "1710930922287041:1652",
+            "publicId": "1710930922294863:1659",
+            "expected_hash": "e4c9f812aad6fbacff137beff2e5385c",
+            "additional": {
+                "originHash": "0febd5bc9be04ba2e49753f22e5c565d"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1710930922286762:1647",
+            "name": "Files/File_1710930922284680_1645.jpg",
+            "flags": 1
+        }
+    },
+    "1710930922286762:1647": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "0febd5bc9be04ba2e49753f22e5c565d"
+                    },
+                    "v": "1710930928995468:3932"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "1024",
+                "compressedSize": "1024",
+                "extension": "jpeg",
+                "originalRAM": "8192",
+                "originalSize": "1379",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1710930922291723:1658"
+        }
+    },
+    "1710930922287041:1652": {
+        "IFileManager": {
+            "path": "Files/File_1710930922287041_1652.jpeg"
+        }
+    },
+    "1710930922291723:1658": {
+        "IFileManager": {
+            "path": "Files/File_1710930922291723_1658.jpeg"
+        }
+    },
+    "1710930922294863:1659": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/Diff.jpeg",
+                "hash": "0febd5bc9be04ba2e49753f22e5c565d"
+            }
+        }
+    },
+    "1710930928995468:3932": {
+        "IFileManager": {
+            "path": "Files/File_1710930928995468_3932.pvr"
+        }
+    }
+}

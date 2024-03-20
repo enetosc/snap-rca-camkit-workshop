@@ -1,0 +1,79 @@
+{
+    "1710865311430430:339252": {
+        "IFileManager": {
+            "path": "Files/File_1710865311430430_339252.pvr"
+        }
+    },
+    "1710865311431430:339253": {
+        "IResourceController": {
+            "name": "Patrick-s_HatMap",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1710865311431637:339254",
+            "fileId": "1710865311430430:339252",
+            "originalId": "1710865311431810:339259",
+            "publicId": "1710865311441734:339268",
+            "expected_hash": "8f06e616db5e95c7fc82965dff66a1f2",
+            "additional": {
+                "originHash": "0f6ede20d1a2779f813fc9dd86898195"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1710865311431637:339254",
+            "name": "Files/File_1710865311430430_339252.jpg",
+            "flags": 1
+        }
+    },
+    "1710865311431637:339254": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "0f6ede20d1a2779f813fc9dd86898195"
+                    },
+                    "v": "1710865323675839:342021"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "524288",
+                "compressedSize": "6886",
+                "extension": "png",
+                "originalRAM": "4194304",
+                "originalSize": "8701",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1710865311437695:339267"
+        }
+    },
+    "1710865311431810:339259": {
+        "IFileManager": {
+            "path": "Files/File_1710865311431810_339259.png"
+        }
+    },
+    "1710865311437695:339267": {
+        "IFileManager": {
+            "path": "Files/File_1710865311437695_339267.png"
+        }
+    },
+    "1710865311441734:339268": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat/Textures/Patrick-s_HatMap.png",
+                "hash": "0f6ede20d1a2779f813fc9dd86898195"
+            }
+        }
+    },
+    "1710865323675839:342021": {
+        "IFileManager": {
+            "path": "Files/File_1710865323675839_342021.pvr"
+        }
+    }
+}

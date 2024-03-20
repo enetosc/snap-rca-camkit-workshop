@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/http-server -a localhost -p 8000 -o slides/guide.html"
+    "start": "./node_modules/.bin/markserv ./index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1",
+    "markserv": "^1.17.4",
     "reveal.js": "^5.0.5"
   }
 }

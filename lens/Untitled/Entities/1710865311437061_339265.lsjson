@@ -1,0 +1,22 @@
+{
+    "1710865311437061:339265": {
+        "IResourceController": {
+            "name": "Textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1710865311437207:339266",
+            "resources": [
+                "1710865311431430:339253"
+            ]
+        }
+    },
+    "1710865311437207:339266": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat/Textures"
+            }
+        }
+    }
+}

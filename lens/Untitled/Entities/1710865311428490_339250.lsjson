@@ -1,0 +1,24 @@
+{
+    "1710865311428490:339250": {
+        "IResourceController": {
+            "name": "Meshes",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1710865311428743:339251",
+            "resources": [
+                "1710865311426795:339239",
+                "1710865311544035:339270",
+                "1710865311641120:339291"
+            ]
+        }
+    },
+    "1710865311428743:339251": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat/Meshes"
+            }
+        }
+    }
+}

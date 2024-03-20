@@ -1,0 +1,24 @@
+{
+    "1710865311163423:338869": {
+        "IResourceController": {
+            "name": "Materials",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1710865311163542:338870",
+            "resources": [
+                "1710865311021488:338853",
+                "1710865311185574:338876",
+                "1710865311276502:339217"
+            ]
+        }
+    },
+    "1710865311163542:338870": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat/Materials"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "1710864921012889:268723": {
+        "IResourceController": {
+            "name": "Face Mesh",
+            "type": 3,
+            "subtype": 2,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1710864921012887:268722",
+            "additional": {
+                "_exteraFile_": [
+                    "Files/File_1710864956250289_274609.extmesh"
+                ],
+                "externalFaceMapFileID": "1710864956250289:274609",
+                "externalFaceMapFilepath": "Files/File_1710864956250289_274609.extmesh",
+                "externalFaceMeshID": "1671640852722296:131",
+                "externalFaceWtihSkull": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1710864921012887:268722",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

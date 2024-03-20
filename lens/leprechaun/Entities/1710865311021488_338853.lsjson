@@ -1,0 +1,39 @@
+{
+    "1710865311020673:338852": {
+        "IFileManager": {
+            "path": "Files/File_1710865311020673_338852"
+        }
+    },
+    "1710865311021488:338853": {
+        "IResourceController": {
+            "name": "Hat",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1710865311021491:338854",
+            "fileId": "1710865311020673:338852",
+            "originalId": "1710865311046573:338860",
+            "publicId": "1710865311164165:338871",
+            "expected_hash": "9f1ac1766fe4cbaf1da4d979b7dbd8b4"
+        },
+        "IResourceManager": {
+            "uid": "1710865311021491:338854",
+            "name": "Files/File_1710865311020673_338852",
+            "flags": 1
+        }
+    },
+    "1710865311046573:338860": {
+        "IFileManager": {
+            "path": "Files/File_1710865311046573_338860.lsmat"
+        }
+    },
+    "1710865311164165:338871": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat/Materials/Hat.lsmat",
+                "hash": "450c097ea446f89bfbfc77289d18a046"
+            }
+        }
+    }
+}

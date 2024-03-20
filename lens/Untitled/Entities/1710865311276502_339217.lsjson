@@ -1,0 +1,39 @@
+{
+    "1710865311275610:339209": {
+        "IFileManager": {
+            "path": "Files/File_1710865311275610_339209"
+        }
+    },
+    "1710865311276502:339217": {
+        "IResourceController": {
+            "name": "Shamrock",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1710865311276505:339218",
+            "fileId": "1710865311275610:339209",
+            "originalId": "1710865311299115:339227",
+            "publicId": "1710865311405904:339234",
+            "expected_hash": "9f1ac1766fe4cbaf1da4d979b7dbd8b4"
+        },
+        "IResourceManager": {
+            "uid": "1710865311276505:339218",
+            "name": "Files/File_1710865311275610_339209",
+            "flags": 1
+        }
+    },
+    "1710865311299115:339227": {
+        "IFileManager": {
+            "path": "Files/File_1710865311299115_339227.lsmat"
+        }
+    },
+    "1710865311405904:339234": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat/Materials/Shamrock.lsmat",
+                "hash": "a6c9133baaa12c5159ea6a9ab9ee0fe3"
+            }
+        }
+    }
+}

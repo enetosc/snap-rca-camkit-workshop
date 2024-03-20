@@ -1,0 +1,24 @@
+{
+    "1710865311162864:338867": {
+        "IResourceController": {
+            "name": "Saint_Patrick-s_Hat",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1710865311163066:338868",
+            "resources": [
+                "1710865311163423:338869",
+                "1710865311428490:339250",
+                "1710865311437061:339265"
+            ]
+        }
+    },
+    "1710865311163066:338868": {
+        "IResourceController": {
+            "public": {
+                "path": "Saint_Patrick-s_Hat"
+            }
+        }
+    }
+}

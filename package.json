@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/markserv ./index.html"
+    "start": "./node_modules/.bin/markserv ./index.html",
+    "ck-build": "./node_modules/.bin/parcel ./index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^14.1.1",
+    "@snap/camera-kit": "^0.15.1",
     "markserv": "^1.17.4",
+    "parcel-bundler": "^1.12.5",
     "reveal.js": "^5.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
   }
 }

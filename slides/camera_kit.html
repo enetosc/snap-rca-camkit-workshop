@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/theme/black.css">
+        <link rel="stylesheet" href="../styles/custom_snap.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../node_modules/reveal.js/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="none" data-markdown data-background-color="#fffc00">
+                    <textarea data-template>
+                        ## Camera Kit
+                        ---
+                        ## What is Camera Kit?
+                        A free SDK that allows you to embed your Lens in any external application 
+                        ---
+                        ## Examples
+                        - Shoe try-on in [Adidas app](https://www.youtube.com/watch?v=kHiI-oQvB5c)
+                        - Digital fashion try-on in [H&M app](https://www2.hm.com/en_gb/life/culture/inside-h-m/metaverse-design-story.html)
+                        - Fans "cry" at [Drake concert](https://petapixel.com/2023/08/07/drake-makes-fans-cry-at-concert-using-snapchat-ar-camera-filter/)
+                        - AR Interviews at [France.TV](https://www.instagram.com/reel/C1jjmVuLt5b/?igsh=MzRlODBiNWFlZA%3D%3D)
+                        - AR lenses on viewers at [LA Rams Stadium](https://www.youtube.com/watch?v=M5U7NQKTUgs)
+                        ---
+                        ## What do I need?
+                        1. Sign up for Camera Kit via [this form](https://camera-kit.snapchat.com/request?lang=en-US)
+                        2. Build lens via [Lens Studio](https://ar.snap.com/lens-studio)
+                        3. Publish lens to a lens folder
+                        4. Manage lenses groups via [Camera Kit Portal](https://camera-kit.snapchat.com/)
+                        5. Develop your app importing lenses from the Camera Kit Portal
+                        ---
+                        ## Camera Kit Web
+                        Allows you to run any lenses on a web application. <br /> [See it in action](https://camera-kit.snapchat.com/websdk/sample/basic) <br />
+                        ---
+                        ## Time to try it yourself
+                        Open the [self-guided lab](../guides/camera-kit.md)
+                        ---
+
+                    </textarea>
+                </section>
+				<!-- <section>Slide 2</section> -->
+			</div>
+		</div>
+
+		<script src="../node_modules/reveal.js/dist/reveal.js"></script>
+		<script src="../node_modules/reveal.js/plugin/notes/notes.js"></script>
+		<script src="../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="../node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

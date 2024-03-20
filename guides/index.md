@@ -1,14 +1,14 @@
 # Workshop Guide
 
 ## 1. Lens Studio
-- [Download v4.55.1](https://ar.snap.com/download)
 - [Lab: Step-by-step Guide](./lens-studio.md)
 - [Lens Studio Docs](https://docs.snap.com/lens-studio/home)
 - [Slides](../slides/lens_studio.html)
 ---
 ## 2. Camera Kit
 - [Lab: Step-by-step Guide](./camera-kit.md)
-- [Documentation](https://docs.snap.com/camera-kit/home)
+- [Camera Kit Docs](https://docs.snap.com/camera-kit/home)
+- [Slides](../slides/camera_kit.html)
 ---
 ## 3. Publishing on Web
 - [Lab: Step-by-step Guide](./ckweb-on-gh.md)

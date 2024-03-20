@@ -1,4 +1,4 @@
-# Lab: Get set up with Camera Kit Web
+# Lab: Get set up with Camera Kit
 
 ## Step 1: Sign up for Camera Kit
 1. Go to [this form](https://camera-kit.snapchat.com/request?lang=en-US) to sign up for Camera Kit
@@ -35,34 +35,8 @@ After following the steps above, you should now be in the [Camera Kit portal](ht
 
 8. When you click on the Lens Group you will notice that the group has a `Lens Group ID` and each lens has a `Lens ID`.
 
-9. With the `API Token`, `Group ID` and `Lens ID` in hand, you now have everything you need to setup your web app
 
-## Step 3: Create a web app that embeds the lens
+## Next steps
+With the `API Token`, `Group ID` and `Lens ID` in hand, you now have everything you need to setup your web app.
 
-1. Open the file [`main.ts`](../src/main.ts) in your text editor
-
-2. Replace the placeholders `<YOUR API TOKEN>` , `<YOUR LENS ID>`, `<YOUR LENS GROUP ID>` with values that you got from the Camera Kit Portal
-
-3. Now, go to the [`index.html`](../index.html) in your text editor and comment line 4, and uncomment lines 8 and 9. It should now look like this:
-
-```html
-<html>
-    <head>
-        <script>
-            // window.location.href="./guides/index.md";
-        </script>
-    </head>
-    <body>
-        <canvas id="canvas"></canvas>
-        <script src="./src/main.ts"></script>
-    </body>
-</html>
-```
-
-4. Save both files and in your terminal navigate to this project and execute 
-
-```
-> npm ck-build
-```
-
-This will resolve all Camera Kit dependencies and build a demo website that will be available in your [`dist/` folder](../dist/index.html)
+Build your Camera Kit Web app by following the next step-by-step tutorial. [Lab: Building a Website with Camera Kit](./ck-on-web.md)

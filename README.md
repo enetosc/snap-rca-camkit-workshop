@@ -1,7 +1,12 @@
 # Camera Kit Workshop
-<img src="img/snap-logo.jpg" alt="snap" width="75" height="75"/>
-<img src="img/rca-logo.png" alt="rca" width="75" height="75"/>
+Self-paced workshop for learning Lens Studio and Camera Kit Web
 
-## Background
+## How to use
+Clone this repository
+Run 
+```
+npm start
+```
+
 
 

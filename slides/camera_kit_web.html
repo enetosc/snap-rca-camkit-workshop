@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="../node_modules/reveal.js/dist/theme/black.css">
+        <link rel="stylesheet" href="../styles/custom_snap.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../node_modules/reveal.js/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="none" data-markdown data-background-color="#fffc00">
+                    <textarea data-template>
+                        ## Camera Kit Web
+                        ---
+                        ## What is Camera Kit Web
+                        A free Javascript SDK that allows you to embed your Lens in any web application 
+                        ---
+                        ## Code Sample
+                        ```js [1|5|19-20]
+                        import { bootstrapCameraKit } from '@snap/camera-kit';
+
+                        (async function () {
+                        const cameraKit = await bootstrapCameraKit({
+                            apiToken: 'YOUR_API_TOKEN',
+                        });
+                        const liveRenderTarget = document.getElementById(
+                            'canvas'
+                        ) as HTMLCanvasElement;
+                        const session = await cameraKit.createSession({ liveRenderTarget });
+                        const mediaStream = await navigator.mediaDevices.getUserMedia({
+                            video: true,
+                        });
+
+                        await session.setSource(mediaStream);
+                        await session.play();
+
+                        const lens = await cameraKit.lensRepository.loadLens(
+                            'LENS_ID',
+                            'LENS_GROUP_ID'
+                        );
+
+                        await session.applyLens(lens);
+                        })();
+						```
+                        ---
+                        ## Next step: Build
+                        ```
+                        > npm run ck-build
+                        ```
+                        ---
+                        ## Voilà
+                        <img src="../img/voila.png" width="500"/>
+                        ---
+                        ## Time to try it yourself
+                        Open the [self-guided lab](../guides/ck-on-web.md)
+                        ---
+
+                    </textarea>
+                </section>
+				<!-- <section>Slide 2</section> -->
+			</div>
+		</div>
+
+		<script src="../node_modules/reveal.js/dist/reveal.js"></script>
+		<script src="../node_modules/reveal.js/plugin/notes/notes.js"></script>
+		<script src="../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="../node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

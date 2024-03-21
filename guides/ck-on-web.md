@@ -1,4 +1,4 @@
-# Bulding an AR Website with Camera Kit
+# Building an AR Website with Camera Kit
 
 1. Open the file [`main.ts`](../src/main.ts) in your text editor
 

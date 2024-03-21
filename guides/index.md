@@ -10,7 +10,7 @@
 - [Lab: Step-by-step Guide](./camera-kit.md)
 - [Camera Kit Docs](https://docs.snap.com/camera-kit/home)
 ---
-## 3. Bulding an AR Website with Camera Kit
+## 3. Building an AR Website with Camera Kit
 - [Slides](../slides/camera_kit_web.html)
 - [Lab: Step-by-step Guide](./ck-on-web.md)
 - [Camera Kit for Web Docs](https://docs.snap.com/camera-kit/integrate-sdk/web/web-configuration)

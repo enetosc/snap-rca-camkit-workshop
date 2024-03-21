@@ -19,7 +19,11 @@ The repository contains the slides, the labs with instructions and it also conta
 
 ## How to use this repository
 1. Clone this repository
-2. Run `npm start`
+2. Run 
+```
+> npm install
+> npm start
+```
 3. You should land on the index page. For each section, first look at the slides, as they will give you a good grasp of the technology and the motivations behind them.
 4. After reaching the end of the slides, hit the "back" button on your browser to go back to the index and complete the step-by-step instructions described in the self-paced labs.
 5. At the end of the last lab you will have built an agumented reality Lens with Lens Studio and a web application that embeds this lens with Camera Kit Web

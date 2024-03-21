@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/markserv/cli index.html",
-    "ck-build": "./node_modules/.bin/parcel ./ck-web-app.html"
+    "start": "node node_modules/markserv/lib/cli index.html",
+    "ck-build": "node node_modules/parcel-bundler/bin/cli ck-web-app.html"
   },
   "author": "",
   "license": "ISC",

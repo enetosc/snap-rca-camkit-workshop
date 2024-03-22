@@ -4,23 +4,7 @@
 
 2. Replace the placeholders `<YOUR API TOKEN>` , `<YOUR LENS ID>`, `<YOUR LENS GROUP ID>` with values that you got from the Camera Kit Portal
 
-3. Now, go to the [`index.html`](../index.html) in your text editor and comment line 4, and uncomment lines 8 and 9. It should now look like this:
-
-```html
-<html>
-    <head>
-        <script>
-            // window.location.href="./guides/index.md";
-        </script>
-    </head>
-    <body>
-        <canvas id="canvas"></canvas>
-        <script src="./src/main.ts"></script>
-    </body>
-</html>
-```
-
-4. Save both files and in your terminal navigate to this project and execute 
+3. Save both files and in your terminal navigate to this project and execute 
 
 ```
 > npm run ck-build
